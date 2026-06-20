@@ -85,7 +85,7 @@ cron.schedule('0 0 * * 1,3,6', () => {
 });
 
 app.get('/', (req, res) => {
-    res.send('Hello World');
+    res.send('Server is running');
 });
 
 app.get('/api/reviews', (req, res) => {
